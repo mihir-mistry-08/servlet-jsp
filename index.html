@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>First Application</title>
+</head>
+<body>
+	<h1>This is my first Web application.</h1>
+	<form name="loginForm" id="loginForm" action="FirstController"
+		method="post">
+		<table width="25%">
+			<tr>
+				<td colspan="1">Login Here</td>
+			</tr>
+			<tr>
+				<td colspan="1">&nbsp;</td>
+			<tr>
+				<td>UserName :</td>
+				<td><input type="text" name="userName" id="userName" /></td>
+			</tr>
+			<tr>
+				<td>Password :</td>
+				<td><input type="password" name="passWord" id="passWord" /></td>
+			</tr>
+			<tr>
+				<td>Subject :</td>
+				<td><select name="subjects" multiple="multiple">
+						<option id="">-- Select --</option>
+						<option id="a">A</option>
+						<option id="b">B</option>
+						<option id="c">C</option>
+						<option id="d">D</option>
+						<option id="e">E</option>
+				</select></td>
+			</tr>
+			<tr>
+				<td colspan="1">&nbsp;</td>
+			</tr>
+			<tr>
+				<td colspan="1"><input type="submit" value="Login" /> &nbsp;<input
+					type="button" value="Cancel" /></td>
+			</tr>
+		</table>
+	</form>
+</body>
+</html>
